@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F424565129BDF41F003F5491 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424565029BDF41F003F5491 /* Rotation.swift */; };
+		F449476329BF965800452971 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449476229BF965800452971 /* Box.swift */; };
+		F449476729BF9F9300452971 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449476629BF9F9300452971 /* Colors.swift */; };
+		F46CCE1729BCD6C5004EF493 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F46CCE1629BCD6C5004EF493 /* Shader.fsh */; };
+		F46CCE1929BCD709004EF493 /* SKColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46CCE1829BCD709004EF493 /* SKColor+Extension.swift */; };
+		F4C061EA29BD0FF000EDE001 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C061E929BD0FF000EDE001 /* AppError.swift */; };
+		F4C061EC29BD1B0600EDE001 /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C061EB29BD1B0600EDE001 /* Bottle.swift */; };
+		F4F83E5429BCB5FA00A4E72E /* AquaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F83E5329BCB5FA00A4E72E /* AquaticApp.swift */; };
+		F4F83E5629BCB5FA00A4E72E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F83E5529BCB5FA00A4E72E /* ContentView.swift */; };
+		F4F83E5829BCB5FB00A4E72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F83E5729BCB5FB00A4E72E /* Assets.xcassets */; };
+		F4F83E5C29BCB5FB00A4E72E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F83E5B29BCB5FB00A4E72E /* Preview Assets.xcassets */; };
+		F4F83E6329BCB6AA00A4E72E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F83E6229BCB6AA00A4E72E /* GameScene.swift */; };
+		F4F83E6529BCCE7200A4E72E /* Molecule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F83E6429BCCE7200A4E72E /* Molecule.swift */; };
+		F4F83E6729BCCEF000A4E72E /* Aqua.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F83E6629BCCEF000A4E72E /* Aqua.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F424565029BDF41F003F5491 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		F449476229BF965800452971 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		F449476629BF9F9300452971 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F46CCE1629BCD6C5004EF493 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		F46CCE1829BCD709004EF493 /* SKColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKColor+Extension.swift"; sourceTree = "<group>"; };
+		F4C061E929BD0FF000EDE001 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		F4C061EB29BD1B0600EDE001 /* Bottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
+		F4F83E5029BCB5FA00A4E72E /* Aquatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F83E5329BCB5FA00A4E72E /* AquaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaticApp.swift; sourceTree = "<group>"; };
+		F4F83E5529BCB5FA00A4E72E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4F83E5729BCB5FB00A4E72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4F83E5929BCB5FB00A4E72E /* Aquatic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aquatic.entitlements; sourceTree = "<group>"; };
+		F4F83E5B29BCB5FB00A4E72E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4F83E6229BCB6AA00A4E72E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F4F83E6429BCCE7200A4E72E /* Molecule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Molecule.swift; sourceTree = "<group>"; };
+		F4F83E6629BCCEF000A4E72E /* Aqua.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aqua.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F83E4D29BCB5FA00A4E72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F474C63229BE3E6C007D0ABD /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				F4F83E6629BCCEF000A4E72E /* Aqua.swift */,
+				F4C061EB29BD1B0600EDE001 /* Bottle.swift */,
+				F449476229BF965800452971 /* Box.swift */,
+				F4F83E6229BCB6AA00A4E72E /* GameScene.swift */,
+				F4F83E6429BCCE7200A4E72E /* Molecule.swift */,
+				F424565029BDF41F003F5491 /* Rotation.swift */,
+				F46CCE1629BCD6C5004EF493 /* Shader.fsh */,
+				F46CCE1829BCD709004EF493 /* SKColor+Extension.swift */,
+			);
+			path = Simulation;
+			sourceTree = "<group>";
+		};
+		F4F83E4729BCB5FA00A4E72E = {
+			isa = PBXGroup;
+			children = (
+				F4F83E5229BCB5FA00A4E72E /* Aquatic */,
+				F4F83E5129BCB5FA00A4E72E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F83E5129BCB5FA00A4E72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F83E5029BCB5FA00A4E72E /* Aquatic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F83E5229BCB5FA00A4E72E /* Aquatic */ = {
+			isa = PBXGroup;
+			children = (
+				F4C061E929BD0FF000EDE001 /* AppError.swift */,
+				F4F83E5929BCB5FB00A4E72E /* Aquatic.entitlements */,
+				F4F83E5329BCB5FA00A4E72E /* AquaticApp.swift */,
+				F4F83E5729BCB5FB00A4E72E /* Assets.xcassets */,
+				F4F83E5529BCB5FA00A4E72E /* ContentView.swift */,
+				F4F83E5A29BCB5FB00A4E72E /* Preview Content */,
+				F474C63229BE3E6C007D0ABD /* Simulation */,
+				F449476629BF9F9300452971 /* Colors.swift */,
+			);
+			path = Aquatic;
+			sourceTree = "<group>";
+		};
+		F4F83E5A29BCB5FB00A4E72E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4F83E5B29BCB5FB00A4E72E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F83E4F29BCB5FA00A4E72E /* Aquatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F83E5F29BCB5FB00A4E72E /* Build configuration list for PBXNativeTarget "Aquatic" */;
+			buildPhases = (
+				F4F83E4C29BCB5FA00A4E72E /* Sources */,
+				F4F83E4D29BCB5FA00A4E72E /* Frameworks */,
+				F4F83E4E29BCB5FA00A4E72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aquatic;
+			productName = Aquatic;
+			productReference = F4F83E5029BCB5FA00A4E72E /* Aquatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F83E4829BCB5FA00A4E72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F4F83E4F29BCB5FA00A4E72E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F4F83E4B29BCB5FA00A4E72E /* Build configuration list for PBXProject "Aquatic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4F83E4729BCB5FA00A4E72E;
+			productRefGroup = F4F83E5129BCB5FA00A4E72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F83E4F29BCB5FA00A4E72E /* Aquatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F83E4E29BCB5FA00A4E72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46CCE1729BCD6C5004EF493 /* Shader.fsh in Resources */,
+				F4F83E5C29BCB5FB00A4E72E /* Preview Assets.xcassets in Resources */,
+				F4F83E5829BCB5FB00A4E72E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F83E4C29BCB5FA00A4E72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F83E6729BCCEF000A4E72E /* Aqua.swift in Sources */,
+				F4F83E6329BCB6AA00A4E72E /* GameScene.swift in Sources */,
+				F4F83E5629BCB5FA00A4E72E /* ContentView.swift in Sources */,
+				F4C061EA29BD0FF000EDE001 /* AppError.swift in Sources */,
+				F424565129BDF41F003F5491 /* Rotation.swift in Sources */,
+				F4F83E5429BCB5FA00A4E72E /* AquaticApp.swift in Sources */,
+				F4C061EC29BD1B0600EDE001 /* Bottle.swift in Sources */,
+				F4F83E6529BCCE7200A4E72E /* Molecule.swift in Sources */,
+				F46CCE1929BCD709004EF493 /* SKColor+Extension.swift in Sources */,
+				F449476729BF9F9300452971 /* Colors.swift in Sources */,
+				F449476329BF965800452971 /* Box.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4F83E5D29BCB5FB00A4E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4F83E5E29BCB5FB00A4E72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F4F83E6029BCB5FB00A4E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aquatic/Aquatic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aquatic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucaangeletti.Aquatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4F83E6129BCB5FB00A4E72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aquatic/Aquatic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aquatic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucaangeletti.Aquatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F83E4B29BCB5FA00A4E72E /* Build configuration list for PBXProject "Aquatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F83E5D29BCB5FB00A4E72E /* Debug */,
+				F4F83E5E29BCB5FB00A4E72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F83E5F29BCB5FB00A4E72E /* Build configuration list for PBXNativeTarget "Aquatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F83E6029BCB5FB00A4E72E /* Debug */,
+				F4F83E6129BCB5FB00A4E72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F83E4829BCB5FA00A4E72E /* Project object */;
+}
