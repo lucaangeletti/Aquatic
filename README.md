@@ -1,3 +1,5 @@
+https://user-images.githubusercontent.com/10343189/224810029-811c8fdb-71cd-4fd9-aa1b-d8dba752d5df.mov
+
 # Aquatic
 
 ## 🌊 Aquatic is a 2D fluid simulation written in Swift that runs natively on the Apple Platforms.
@@ -17,6 +19,3 @@ That means you have 16 milliseconds to run all the code that renders each frame.
 - The GPU is a machine for parallel computation, learn how to use it properly, and you will skyrocket the speed of your app.
 - Like every game oriented tool, SpriteKit is fast. Embrace it if you want to add awesome effects to your iOS, macOS, tvOS, and watchOS app.
 - SpriteKit contains a 2D physics engine that you can leverage to build realistic simulations.
-
-https://user-images.githubusercontent.com/10343189/224810029-811c8fdb-71cd-4fd9-aa1b-d8dba752d5df.mov
-
